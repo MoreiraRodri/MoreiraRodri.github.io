@@ -4,11 +4,13 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     color: whitesmoke;
+    padding: 1%;
   }
 
   h1 {
     font-style: italic;
     font-family: Verdana, sans-serif;
+    text-align: center;
   }
 
   p {
@@ -17,4 +19,37 @@ body {
 
   ul {
       text-align: left;
+  }
+
+  ul li:nth-child(odd){
+    background-color: blue;
+  }
+
+  h3 {
+    clear: both;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  .conteudo-descricao {
+    top: 100px;
+    margin-left: 300px;
+    margin-top: 25px;
+    line-height: 25px;
+  }
+
+  #rodrigo {
+    float: left;
+    width: 260px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+  }
+
+  .descricao-conteiner {
+    height: 280px;
+    position: left;
+    margin-bottom: 5px;
   }
