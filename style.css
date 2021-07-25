@@ -33,6 +33,15 @@ body {
     margin-bottom: 15px;
   }
 
+  a:hover{
+    color: red;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
   .conteudo-descricao {
     top: 100px;
     margin-left: 300px;
