@@ -22,7 +22,7 @@ body {
   }
 
   ul li:nth-child(odd){
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.5); /*blue backgraund with 30% opacity */
   }
 
   h3 {
